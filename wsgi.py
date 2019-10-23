@@ -11,7 +11,7 @@ port = int(os.getenv('PORT', 8000))
 
 class landingPage(tornado.web.RequestHandler):
     def get(self):
-        self.render("static/indexx.html")
+        self.render("indexx.html")
 
 class basicRequestHandler(tornado.web.RequestHandler):
     def get(self):
