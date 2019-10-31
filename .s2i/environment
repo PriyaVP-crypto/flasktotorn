@@ -1,2 +1,2 @@
-APP_FILE=main.py
+APP_FILE=app.py
 ENABLE_INIT_WRAPPER=1
