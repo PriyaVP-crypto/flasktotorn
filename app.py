@@ -11,7 +11,7 @@ port = int(os.getenv('PORT', 8000))
 
 class landingPage(tornado.web.RequestHandler):
     def get(self):
-        self.render("indexx.html")
+        self.render("static/indexx.html")
 if __name__ == "__main__":
     app = tornado.web.Application([
         (r"/", landingPage),
