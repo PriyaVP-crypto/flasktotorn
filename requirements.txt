@@ -1,5 +1,2 @@
 gunicorn
-tornado==6.0.3
-requests
-
-
+flask
